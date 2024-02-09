@@ -6,9 +6,8 @@ resource "aws_vpc" "vpc" {
   enable_dns_hostnames = true
 
   tags = {
-    Name        = "etech-dev VPC"
-
-    Environment = "dev"
+    Name        = "etech-testing VPC"
+    Environment = "testing"
     Owner       = "Etechdevops"
   }
 }
